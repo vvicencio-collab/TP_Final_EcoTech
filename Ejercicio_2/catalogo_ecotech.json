@@ -1,0 +1,24 @@
+[
+    {
+        "codigo": "SOL001",
+        "nombre": "Panel Solar Residencial",
+        "precio": 250000,
+        "stock": 15,
+        "potencia_watts": 450,
+        "eficiencia": 21.5
+    },
+    {
+        "codigo": "SOL002",
+        "nombre": "Panel Solar Industrial",
+        "precio": 480000,
+        "stock": 8,
+        "potencia_watts": 800,
+        "eficiencia": 23.0
+    },
+    {
+        "codigo": "ECO001",
+        "nombre": "Controlador de Carga",
+        "precio": 85000,
+        "stock": 5
+    }
+]
