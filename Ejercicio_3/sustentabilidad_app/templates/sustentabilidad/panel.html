@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>EcoTech Solutions - Sustentabilidad</title>
+</head>
+
+<body>
+
+    <h1>EcoTech Solutions</h1>
+
+    <h2>Panel de Sustentabilidad</h2>
+
+    <hr>
+
+    <h3>Resumen de emisiones industriales</h3>
+
+    <p>
+        <strong>Total global de emisiones:</strong>
+        {{ total_emisiones|floatformat:2 }} kg de CO₂
+    </p>
+
+    <p>
+        <strong>Planta de mayor consumo:</strong>
+        {{ planta_mayor_consumo|default:"Sin registros" }}
+    </p>
+
+</body>
+
+</html>
